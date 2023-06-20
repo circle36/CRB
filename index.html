@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="./Style/stylesheet.css">
+  <script src="./js/clock.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRB | Patent Litigation Funding</title>
@@ -48,17 +49,49 @@
       <h4>The last step is for you (the Plaintiff) and CRB to agree that any financial settlement or decision is split 50-50 after expenses. When we all agree to the terms, CRB will fully fund your litigation.</h4>
     </div>
   </div>
+  <!-- clocks -->
+  <div class="clocks-wrapper">
+    <div class="crb-wrapper">
+      <div class="toronto single-clock">
+        <h6>toronto</h6>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">00:00:00</div>
+      </div>
+      <div class="england single-clock">
+        <h6>england</h6>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">10:00:00</div>
+      </div>
+      <div class="singapore single-clock">
+        <h6>singapore</h6>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">20:00:00</div>
+      </div>
+      <div class="hong-kong single-clock">
+        <h6>hong kong</h6>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">06:00:00</div>
+      </div>
+      <div class="new-york single-clock">
+        <h6>new york</h6>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">08:00:00</div>
+      </div>
+    </div>
+  </div>
   <!-- footer -->
   <footer>
     <div class="crb-wrapper footer-content">
-      <p class="cmpany-name">CRB</p>
-      <div class="right-sec">
-        <h5>Contact Us</h5>
-        <ul>
-          <li>Professionally</li>
-          <li>Chris Bulley</li>
-          <li>CEO: CRBPLF</li>
-        </ul>
+      <div class="crb-footr-container">
+        <p class="cmpany-name">
+          <img src="./images/crb-logo.png" alt="crb">
+        </p>
+        <div class="right-sec">
+          <h5>Contact Us</h5>
+          <ul>
+            <li>Chris Bulley</li>
+            <li>CEO: CRBPLF</li>
+            <li><a href="mailto: crbplf@protonmail.com" target="_blank">crbplf@protonmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© Copyright 2023 | CRB | all rights reserved</p>
       </div>
     </div>
   </footer>
