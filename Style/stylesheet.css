@@ -55,22 +55,17 @@ body {
   width: 100vw;
 }
 .banner .banner-shadow {
-  background: rgba(0, 0, 0, 0.062745098);
+  background: rgba(0, 0, 0, 0.2901960784);
   width: 100vw;
   height: 100vh;
 }
 .banner .banner-content {
   padding: 30vh 0 0;
 }
-.banner .banner-content span {
-  display: block;
-  background: rgba(76, 19, 107, 0.3803921569);
-  border-radius: 10px;
-  max-width: 75%;
-}
 .banner .banner-content h1 {
+  max-width: 68%;
   font-size: 50px;
-  padding: 40px;
+  padding: 40px 0;
   color: #fff;
   border-radius: 15px;
   text-shadow: -1px 0px 4px rgba(0, 0, 0, 0.7);
