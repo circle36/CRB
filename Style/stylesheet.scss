@@ -61,12 +61,18 @@ body {
   }
   .banner-content {
     padding: 30vh 0 0;
+    span {
+      display: block;
+      // background: #ffffffad;
+      background: #4c136b61;
+      border-radius: 10px;
+      max-width: 75%;
+    }
     h1 {
       font-size: 50px;
       padding: 40px;
-      color: var(--light);
+      color: #fff;
       border-radius: 15px;
-      max-width: 68%;
       text-shadow: -1px 0px 4px rgba(0,0,0,0.7);
     }
   }

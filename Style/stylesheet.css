@@ -62,12 +62,17 @@ body {
 .banner .banner-content {
   padding: 30vh 0 0;
 }
+.banner .banner-content span {
+  display: block;
+  background: rgba(76, 19, 107, 0.3803921569);
+  border-radius: 10px;
+  max-width: 75%;
+}
 .banner .banner-content h1 {
   font-size: 50px;
   padding: 40px;
-  color: var(--light);
+  color: #fff;
   border-radius: 15px;
-  max-width: 68%;
   text-shadow: -1px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -182,7 +187,7 @@ body {
   color: #000;
   background: var(--light);
   min-height: 10px;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 7px;
   padding: 0.7em 0;
   border-radius: 10px;
